@@ -1,4 +1,4 @@
-# Multisigature Committees
+# Multisignature Committees
 
 The Solayer contract is inherently upgradable for several reasons. Firstly, stage 1 will be released in multiple phases, necessitating contract upgrades. Secondly, in emergencies, the core team must be able to swiftly implement proactive changes. Lastly, to ensure transparency and a community-first approach, the Solayer core team has decided to decentralize the development process. Hence, contract ownership is migrated to a multisig of known individuals within the Solana community.
 
