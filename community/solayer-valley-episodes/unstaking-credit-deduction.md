@@ -4,7 +4,7 @@ The credit deduction mechanism is designed to manage the rewards earned through 
 
 ## Accounting Deduction
 
-When you stake SOL (or any other LST on Solayer) in a pool, you earn accrue credits based on the amount and type (bSOL, jitoSOL, INF, mSOL, etc.) of SOL staked. However, if you withdraw your staked SOL before the final epoch, a portion of that will deducted. This mechanism ensures that long-term stakers are rewarded more than those who withdraw early.
+When you stake SOL (or any other LST on Solayer) in a pool, you earn accrue credits based on the amount and type (bSOL, jitoSOL, INF, mSOL, etc.) of SOL staked. However, if you withdraw your staked SOL before the final epoch, a portion of that will be deducted. This mechanism ensures that long-term stakers are rewarded more than those who withdraw early.
 
 ### Calculation
 
@@ -38,7 +38,7 @@ So, if you generated 1000 credits on the 10 SOL deposited, 50 credits will be de
 * **Credits Earned:** 300 credits (assuming a mix of native SOL and LSTs, with appropriate multipliers)
 * **Deduction: (10 / 50 \* 300) \* 0.5 = 30 credits**
 
-In this case, if you generated 300 creditson the 10 SOL deposited, 30 credits will be deducted, leaving you with 270 credits.
+In this case, if you generated 300 credits on the 10 SOL deposited, 30 credits will be deducted, leaving you with 270 credits.
 
 ### _**Example 3: Withdrawing 50% of Staked SOL**_
 
